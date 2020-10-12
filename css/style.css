@@ -1,0 +1,108 @@
+body {
+  line-height: 1.5rem;
+  background-image: url(../img/cvbg.png);
+  background-color: rgba(99, 99, 99, 0.8);
+  background-blend-mode: darken;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-inline: solid 1px black;
+  margin-top: 2em;
+}
+@media screen and (min-width: 1200px) {
+  .center-block {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #edu,
+  #exp {
+    width: 500px;
+    height: 300px;
+  }
+  #contak {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 2em;
+  }
+
+  #mecontac {
+    width: 40%;
+    float: left;
+  }
+}
+/* #edu {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+#exp {
+  float: right;
+  width: 45%;
+} */
+
+header {
+  border: solid black 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+header img {
+  float: left;
+  padding: 2em;
+}
+header h1 {
+  padding-top: 2.5em;
+  line-height: normal;
+}
+
+header h2 {
+  font-size: 1.5em;
+}
+
+form label,
+input,
+textarea {
+  display: block;
+  text-align: left;
+}
+
+form label {
+  margin: 0.4em 0 0.4em 0;
+}
+
+section > h2 {
+  margin-bottom: 0.4em;
+}
+
+#edu,
+#exp,
+#contak,
+#mecontac {
+  margin-bottom: 2em;
+  padding: 1%;
+}
+
+#sendform {
+  margin-top: 1em;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.icon-graduation-cap {
+  padding-right: 0.2em;
+}

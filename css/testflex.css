@@ -1,0 +1,20 @@
+div#container {
+    border: 1px solid black;
+    display: flex;
+        /* axe principal par défault en ligne (row) */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+div#container > div {
+    border: 1px solid red;
+    background-color:rgba(4, 67, 238, 0.4);
+    flex-basis: 30%;
+    height: 100px;
+    padding: 5px;
+    align-items: flex-end;
+    align-content: flex-start;
+}

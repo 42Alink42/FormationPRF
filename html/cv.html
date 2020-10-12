@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/cvfont.css" rel="stylesheet" />
+    <link rel="icon" href="../img/avatar.jpg" />
+    <title>CV Alexandre Galindo</title>
+  </head>
+
+  <body class="clear-fix">
+    <header class="clear-fix">
+      <img src="../img/avatar.jpg" alt="" />
+      <h1>Alexandre Galindo</h1>
+      <h2>Front end Developper</h2>
+    </header>
+    <main class="clear-fix">
+      <div class="center-block" class="clear-fix">
+        <section id="edu">
+          <h2><i class="icon-graduation-cap"></i>Education</h2>
+          <ul>
+            <li class="icon-right-circle">Master Info com</li>
+            <li class="icon-right-circle">Licence science du langage</li>
+          </ul>
+        </section>
+        <section id="exp">
+          <h2 class="icon-briefcase">Experience</h2>
+          <ul>
+            <li class="icon-right-circle">stage 1</li>
+            <li class="icon-right-circle">stage 2</li>
+            <li class="icon-right-circle">stage 3</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="clear-fix">
+      <section id="contak">
+        <h2>Contact</h2>
+        <ul>
+          <li class="icon-location">Adresse :</li>
+          <li class="icon-mail-alt">mail :</li>
+          <li class="icon-phone">tel :</li>
+        </ul>
+      </section>
+      <section id="mecontac">
+        <h2>Me contacter</h2>
+        <form action="./merci.html" method="post">
+          <label for="prenom">Prénom</label>
+          <input id="prenom" type="text" name="prenom" placeholder="Paul" />
+          <label for="nom"> Nom </label>
+          <input id="nom" type="text" name="nom" placeholder="Meunier" />
+          <label for="message">Votre Message </label
+          ><textarea
+            id="message"
+            name="message"
+            placeholder="votre message"
+            cols="30"
+            rows="4"
+          ></textarea>
+          <input type="submit" value="Envoyer" id="sendform" />
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
